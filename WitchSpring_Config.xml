@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<Players>
+		<Row CivilizationAbilityDescription="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_WITCHSPRING" 
+			 CivilizationAbilityName="LOC_CIVILIZATION_WITCHSPRING_ABILITY_NAME" CivilizationIcon="ICON_CIVILIZATION_WITCHSPRING" 
+			 CivilizationName="LOC_CIVILIZATION_WITCHSPRING_NAME" CivilizationType="CIVILIZATION_WITCHSPRING" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_PAIMEI" LeaderAbilityName="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" 
+			 LeaderIcon="ICON_LEADER_PAIMEI" LeaderName="LOC_LEADER_PAIMEI_NAME" LeaderType="LEADER_PAIMEI" 
+			 Portrait="IMG_SELECTION_FOREGROUND_PAIMEI"/>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_WITCHSPRING" 
+			 CivilizationAbilityName="LOC_CIVILIZATION_WITCHSPRING_NAME" CivilizationIcon="ICON_CIVILIZATION_WITCHSPRING" 
+			 CivilizationName="LOC_CIVILIZATION_WITCHSPRING_NAME" CivilizationType="CIVILIZATION_WITCHSPRING" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_PAIMEI" LeaderAbilityName="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" 
+			 LeaderIcon="ICON_LEADER_PAIMEI" LeaderName="LOC_LEADER_PAIMEI_NAME" LeaderType="LEADER_PAIMEI" 
+			 Portrait="IMG_SELECTION_FOREGROUND_PAIMEI" Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_WITCHSPRING" 
+			 CivilizationAbilityName="LOC_CIVILIZATION_WITCHSPRING_NAME" CivilizationIcon="ICON_CIVILIZATION_WITCHSPRING" 
+			 CivilizationName="LOC_CIVILIZATION_WITCHSPRING_NAME" CivilizationType="CIVILIZATION_WITCHSPRING" 
+			 LeaderAbilityDescription="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_PAIMEI" LeaderAbilityName="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" 
+			 LeaderIcon="ICON_LEADER_PAIMEI" LeaderName="LOC_LEADER_PAIMEI_NAME" LeaderType="LEADER_PAIMEI" 
+			 Portrait="IMG_SELECTION_FOREGROUND_PAIMEI" Domain="Players:Expansion2_Players"/>
+	</Players>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" Type="UNIT_PAIMEI" Name="LOC_TRAIT_UNIT_PAIMEI_NAME" Description="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Icon="ICON_UNIT_PAIMEI" SortIndex="10"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" Type="UNIT_PAIMEI" Name="LOC_TRAIT_UNIT_PAIMEI_NAME" Description="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Icon="ICON_UNIT_PAIMEI" SortIndex="10"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" Type="UNIT_PAIMEI" Name="LOC_TRAIT_UNIT_PAIMEI_NAME" Description="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Icon="ICON_UNIT_PAIMEI" SortIndex="10"/>
+		
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" Type="BUILDING_MAGICPOT" Name="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Description="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Icon="ICON_BUILDING_MAGICPOT" SortIndex="20"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" Type="BUILDING_MAGICPOT" Name="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Description="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Icon="ICON_BUILDING_MAGICPOT" SortIndex="20"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" Type="BUILDING_MAGICPOT" Name="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Description="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Icon="ICON_BUILDING_MAGICPOT" SortIndex="20"/>
+	</PlayerItems>
+</GameData>

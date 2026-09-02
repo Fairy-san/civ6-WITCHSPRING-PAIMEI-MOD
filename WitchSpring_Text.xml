@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<EnglishText>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_NAME">
+			<Text>LOC_LEADER_PAIMEI_ABILITY_NAME</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION">
+			<Text>LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION</Text>
+		</Row>
+	</EnglishText>
+	<BaseGameText>
+		<Row Tag="LOC_ALL_UNITS">
+			<Text>LOC_ALL_UNITS</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY">
+			<Text>LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_PAIMEI">
+			<Text>LOC_LOADING_INFO_LEADER_PAIMEI</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_1_NAME">
+			<Text>LOC_PROMOTION_PAIMEI_L1_1_NAME</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_2_NAME">
+			<Text>LOC_PROMOTION_PAIMEI_L1_2_NAME</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_3_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_3_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_2_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_1_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_1_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_2_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_3_NAME">
+			<Text>1</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L4_NAME">
+			<Text>1</Text>
+		</Row>
+	</BaseGameText>
+	<LocalizedText>
+		<!--<Row Tag="LOC_TRAIT_UNIT_PAIMEI_NAME" Language="en_US">
+			<Text>Paimei</Text>
+		</Row>-->
+		<Replace Tag="LOC_ALL_UNITS" Language="zh_Hans_CN">
+			<Text>所有我方单位</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY" Language="zh_Hans_CN">
+			<Text>进攻城市和军营时远程攻击效率为100%</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>魔女的小屋</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首都直接拥有特色单位派莓和特色建筑魔法缸</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PAIMEI" Language="zh_Hans_CN">
+			<Text>
+				人类称派莓为“魔女”，并把她所居住的森林称为“黑暗魔女丛林”。然而，派莓并不知道她在哪里出生、何时开始以及为什么会独自一人生活在这片森林中。
+				派莓这个名字是自己取的，原因是“最喜欢吃派和草莓了。”
+				她天生性格开朗又温暖，即使独自生活，也不会感到苦涩或悲伤。
+			</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_NAME" Language="zh_Hans_CN">
+			<Text>派莓</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_CLASS_PAIMEI_NAME" Language="zh_Hans_CN">
+			<Text>魔女</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特色单位派莓，作为纯血神族拥有强大的魔力和巨大的潜力，拥有独特晋升树，并可以通过训练提高战斗力和移速，可以使用传送魔法直接回到黑暗魔女森林（不可生产不可购买）。
+				人类称派莓为“魔女”，并把她所居住的森林称为“黑暗魔女丛林”。然而，派莓并不知道她在哪里出生、何时开始以及为什么会独自一人生活在这片森林中。
+				派莓这个名字是自己取的，原因是“最喜欢吃派和草莓了。”
+				她天生性格开朗又温暖，即使独自生活，也不会感到苦涩或悲伤。
+			</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_NAME" Language="zh_Hans_CN">
+			<Text>魔女之泉</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>魔女之泉</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>
+				太古时期，曾有众神。
+				祂们给人类降雨，有时甚至会帮助他们让逝者死而复生。
+				人类崇拜祂们、赞美祂们，全心全意地尊敬祂们。
+				但，人们的敬畏和赞美，不久就演化成了对获得神之力的渴望。
+				“好想拥有”
+				人类的欲望一直被深藏在名为敬畏与赞美的面具背后。
+				最终也在力量源泉被发现时表露了出来。
+				“我们也可以成为神”
+				曾被人们所崇拜的神族，如今被称之为“魔族”，他们不但被全部屠杀，还被夺取了所拥有的力量源泉。
+				新的国家和宗教渐渐涌现，和以前一样，他们在人类身上施展着奇迹与奇行。
+				除了神的消失以外，似乎什么都没有改变。
+			</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>巴尔特的庇护</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文明禁止建立宗教但所有单位获取经验速度增加50%。当建立宗教的国家与本文明宣战时，所有城市生产力提高100%，持续10回合。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_NAME" Language="zh_Hans_CN">
+			<Text>派莓</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_NAME" Language="zh_Hans_CN">
+			<Text>魔女的小屋</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>首都直接拥有特色单位派莓和特色建筑魔法缸</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Language="zh_Hans_CN">
+			<Text>魔法缸</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不可建造不可购买，派莓可以通过魔法缸完成速度训练和力量训练（如传送回首都需重新进入首都才可以进行训练），完成一定次数后可以提升解锁更高级的训练。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dark_Witch_Forest" Language="zh_Hans_CN">
+			<Text>黑暗魔女森林</Text>
+		</Row>
+		<!--<Row Tag="LOC_CITY_NAME_Snowfield_of_the_Ice_Snow_Witch" Language="zh_Hans_CN">
+			<Text>冰雪魔女的雪原</Text>
+		</Row>-->
+		<!--<Row Tag="LOC_CITY_NAME_Foggy_Forest" Language="zh_Hans_CN">
+			<Text>迷雾森林</Text>
+		</Row>-->
+		<Row Tag="LOC_CITY_NAME_Pudding_Cave" Language="zh_Hans_CN">
+			<Text>布丁洞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Stone_Person_Cave_in_the_Back_Mountain" Language="zh_Hans_CN">
+			<Text>后山石人洞</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WildBoar_Plain" Language="zh_Hans_CN">
+			<Text>野猪平原</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Lion_Plain" Language="zh_Hans_CN">
+			<Text>群狮平原</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Northern_Snow_Field" Language="zh_Hans_CN">
+			<Text>北部雪原</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dragon_Valley" Language="zh_Hans_CN">
+			<Text>龙之谷</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_1" Language="zh_Hans_CN">
+			<Text>布莱克乔伊</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_2" Language="zh_Hans_CN">
+			<Text>伊桑</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_3" Language="zh_Hans_CN">
+			<Text>利维亚</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_4" Language="zh_Hans_CN">
+			<Text>卡娜</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PAIMEI_QUOTE" Language="zh_Hans_CN">
+			<Text>
+				人类称派莓为“魔女”，并把她所居住的森林称为“黑暗魔女丛林”。然而，派莓并不知道她在哪里出生、何时开始以及为什么会独自一人生活在这片森林中。
+				派莓这个名字是自己取的，原因是“最喜欢吃派和草莓了。”
+				她天生性格开朗又温暖，即使独自生活，也不会感到苦涩或悲伤。
+			</Text>
+		</Row>
+		<!--<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_LUNA_QUOTE" Language="zh_Hans_CN">
+			<Text>LOC_PEDIA_LEADERS_PAGE_LEADER_LUNA_QUOTE.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AILUDI_QUOTE" Language="zh_Hans_CN">
+			<Text>LOC_PEDIA_LEADERS_PAGE_LEADER_AILUDI_QUOTE.</Text>
+		</Row>-->
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_1_NAME" Language="zh_Hans_CN">
+			<Text>敏捷药剂</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓移动力+1。炼金入门课：跑得快，才采得到蘑菇。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_2_NAME" Language="zh_Hans_CN">
+			<Text>后山修行</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓力量+5。和后山的石人切磋，是每天早上的必修课。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_3_NAME" Language="zh_Hans_CN">
+			<Text>神殿①·阿鲁阿的庇护</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神殿①·闪电：派莓力量+20，所有城市+10%生产力。阿鲁阿的神殿以雷霆淬炼派莓的力量。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_3_NAME" Language="zh_Hans_CN">
+			<Text>咏唱改良</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓攻击范围+1，攻击城市和军营时远程攻击效率为100%。咏唱更快更远，魔法终于能轰到城墙了。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_2_NAME" Language="zh_Hans_CN">
+			<Text>魔力护盾</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓防守时力量+10，所有城市城墙防御+200。魔力织成的护盾，护人也护城。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_1_NAME" Language="zh_Hans_CN">
+			<Text>神殿②·埃因哈德的庇护</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神殿②·防御：派莓力量+20，所有单位移动力+1，所有城市+10%生产力。埃因哈德的神殿把派莓裹进大地的守护里。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_1_NAME" Language="zh_Hans_CN">
+			<Text>神殿③·埃丽斯韵的庇护</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神殿③·生命：所有城市+1人口、+1住房、+10%生产力，建造者+1建造次数。埃丽斯韵的神殿让森林生生不息。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_2_NAME" Language="zh_Hans_CN">
+			<Text>神族的威光</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓力量+25，所有单位力量+5。神族血统开始觉醒，威压自然而然地散发出来。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_3_NAME" Language="zh_Hans_CN">
+			<Text>坐骑卢克</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓移动力+2。跨上坐骑卢克，森林与平原转瞬即过。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L4_NAME" Language="zh_Hans_CN">
+			<Text>神殿④·杜蕾的庇护</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>神殿④·引力：派莓力量+20，可以额外攻击一次，攻击后仍可移动，被派莓攻击的单位该回合无法行动，并获得对核弹与辐射的高抗性，所有城市+10%生产力。引力归于派莓——走过四座神殿，真正的魔女觉醒了。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>游泳</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>初级速度训练</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>小幅提升派莓的移速</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
+			<Text>小幅提升派莓的移速</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>冥想</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>初级魔法训练</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>小幅提升派莓的魔力（力量）</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
+			<Text>小幅提升派莓的魔力（力量）</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>击打木桩</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>中级速度训练</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提升派莓的移速</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
+			<Text>提升派莓的移速</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>练习制作</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>中级魔法训练</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>提升派莓的魔力（力量）</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
+			<Text>提升派莓的魔力（力量）</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_NAME" Language="zh_Hans_CN">
+			<Text>跑步</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>高级速度训练</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>大幅提升派莓的移速</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
+			<Text>大幅提升派莓的反应速度（移速）</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>练习魔法</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>高级魔法训练</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>大幅提升派莓的魔力（力量）</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
+			<Text>大幅提升派莓的魔力（力量）</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_NAME" Language="zh_Hans_CN">
+			<Text>许可通知</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以运行项目</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_NAME" Language="zh_Hans_CN">
+			<Text>飞行魔法</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>派莓可以无视区域控制，可以在海上攻击，可以传送回首都，可以对地块进行改良和删除。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_IGNOREZOC_IGNORE_ZOC_DESCRIPTION" Language="zh_Hans_CN">
+		<Text>派莓可以无视区域控制</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PAIMEI_GDR_ARMOR_DEFENSES_NAME" Language="zh_Hans_CN">
+			<Text>魔力盾</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CAPITAL_BTN_TT" Language="zh_Hans_CN">
+			<Text>传送回首都</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_TITLE" Language="zh_Hans_CN">
+			<Text>传送到城市</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_BTN_TT" Language="zh_Hans_CN">
+			<Text>空运：选择派莓要传送到的城市（传送后本回合无法行动）</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_NOCITY" Language="zh_Hans_CN">
+			<Text>没有可以传送的城市</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_FAIL" Language="zh_Hans_CN">
+			<Text>传送失败：市中心和周围都没有空地</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_CLOSE" Language="zh_Hans_CN">
+			<Text>关闭</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

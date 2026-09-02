@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<!-- 外层容器照抄 RMT 结构：Anchor R,T -->
+	<Container ID="WSMainContainer" Size="auto,auto" Anchor="R,T" Offset="0,0">
+		<Grid ID="TeleportActionGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+			<Button ID="TeleportActionButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+				<Image ID="TeleportActionIcon" Anchor="C,C" Offset="0,-2" Size="38,38" Icon="ICON_UNIT_PAIMEI"/>
+			</Button>
+		</Grid>
+		<!-- 城市传送弹窗：照抄 RMT 的成对结构（背景 Grid + 内容 Container，成对显隐） -->
+		<Grid ID="TeleportPopupBG" Size="400,470" Anchor="R,T" AnchorSide="I,I" Offset="530,130" Texture="Controls_PanelBlue" ConsumeMouse="0" Hidden="1" SliceCorner="25,28" SliceSize="33,18" SliceTextureSize="83,75"/>
+		<Container ID="TeleportPopupContainer" Size="400,470" Anchor="R,T" AnchorSide="I,I" Offset="530,130" ConsumeMouse="1" Hidden="1">
+			<Stack ID="TeleportMainStack" Anchor="C,T" Size="parent,auto" StackGrowth="Bottom" Padding="8" Offset="0,16">
+				<Label ID="TeleportTitle" Anchor="C,T" String="LOC_PLACE_PAIMEI_CITY_TELEPORT_TITLE" Style="DiplomacyCivHeader" FontStyle="stroke" ColorSet="BodyTextBright"/>
+				<Label ID="TeleportErrorHint" Anchor="C,T" Style="FontNormal14" FontStyle="stroke" ColorSet="BodyTextBright" WrapWidth="360" Hidden="1"/>
+				<Label ID="TeleportNoCityHint" Anchor="C,T" String="LOC_PLACE_PAIMEI_CITY_TELEPORT_NOCITY" Style="FontNormal14" FontStyle="stroke" ColorSet="BodyTextBright" WrapWidth="360" Hidden="1"/>
+				<Label ID="TeleportFailHint" Anchor="C,T" String="LOC_PLACE_PAIMEI_CITY_TELEPORT_FAIL" Style="FontNormal14" FontStyle="stroke" ColorSet="BodyTextBright" WrapWidth="360" Hidden="1"/>
+				<Label ID="CityCurrentLabel" Anchor="C,T" Style="FontNormal14" FontStyle="stroke" ColorSet="BodyTextBright" WrapWidth="360" Hidden="1"/>
+				<ScrollPanel ID="CityScrollPanel" Anchor="C,T" Size="parent-36,290" Style="ScrollPanelWithRightBar" Offset="0,0">
+					<Stack ID="CityButtonStack" Anchor="C,T" Size="parent,auto" StackGrowth="Down" StackPadding="3">
+						<GridButton ID="CityButton0" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton1" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton2" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton3" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton4" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton5" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton6" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton7" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton8" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton9" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton10" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+						<GridButton ID="CityButton11" Anchor="C,T" Size="320,30" Style="ButtonControl" Hidden="1"/>
+					</Stack>
+				</ScrollPanel>
+				<GridButton ID="TeleportCloseButton" Anchor="C,T" Size="220,34" Style="ButtonControl" String="LOC_PLACE_PAIMEI_CITY_TELEPORT_CLOSE"/>
+			</Stack>
+		</Container>
+	</Container>
+</Context>

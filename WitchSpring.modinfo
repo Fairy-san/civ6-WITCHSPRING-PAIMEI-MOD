@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="dbcd174f-2747-4b57-950c-f8e9fa1cfed3" version="1">
+  <Properties>
+    <Name>WitchSpring</Name>
+    <Description>This is a brief description of the mod.</Description>
+    <Created>1788188136</Created>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Authors>Fairy</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>WitchSpring_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>WitchSpring_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>WitchSpring_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>WitchSpring.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>WitchSpring_Color.xml</File>
+    </UpdateColors>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Database">
+      <File>WitchSpring_Civilization.xml</File>
+      <File>WitchSpring_Leaders.xml</File>
+      <File>WitchSpring_Units.xml</File>
+      <File>WitchSpring_Building.xml</File>
+      <File>WitchSpring_Modifier.sql</File>
+      <File>WitchSpring_Project.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <File>WitchSpring_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>WitchSpring_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>WitchSpring.dep</File>
+    </UpdateArt>
+    <UpdateColors id="Color">
+      <File>WitchSpring_Color.xml</File>
+    </UpdateColors>
+    <AddUserInterfaces id="UI">
+      <Properties>
+        <LoadOrder>14000</LoadOrder>
+        <Context>InGame</Context>
+      </Properties>
+      <File>Place_PAIMEI_Capital_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="Gameplay">
+      <File>Place_PAIMEI_Capital_gameplay.lua</File>
+      <File>Gameplay.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Artdefs/Buildings.artdef</File>
+    <File>Artdefs/FallbackLeaders.artdef</File>
+    <File>Artdefs/Units.artdef</File>
+    <File>Gameplay.lua</File>
+    <File>Place_PAIMEI_Capital_gameplay.lua</File>
+    <File>Place_PAIMEI_Capital_UI.lua</File>
+    <File>Place_PAIMEI_Capital_UI.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/WitchSpringDDS.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/WitchSpringDDS.blp</File>
+    <File>WitchSpring.dep</File>
+    <File>WitchSpring_Building.xml</File>
+    <File>WitchSpring_Civilization.xml</File>
+    <File>WitchSpring_Color.xml</File>
+    <File>WitchSpring_Config.xml</File>
+    <File>WitchSpring_Icons.xml</File>
+    <File>WitchSpring_Leaders.xml</File>
+    <File>WitchSpring_Modifier.sql</File>
+    <File>WitchSpring_Project.xml</File>
+    <File>WitchSpring_Text.xml</File>
+    <File>WitchSpring_Units.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- WitchSpring_Color -->
+<!-- Author: 86139 -->
+<!-- DateCreated: 11/13/2024 5:47:19 PM -->
+<GameData>
+	<!--Color Style-->
+	<Colors>
+		<Row>
+			<!--底色-->
+			<Type>COLOR_PLAYER_CIVILIZATION_WITCHSPRING_PRIMARY</Type>
+			<Color>244,244,244,255</Color>
+		</Row>
+		<Row>
+			<!--前景色-->
+			<Type>COLOR_PLAYER_CIVILIZATION_WITCHSPRING_SECONDARY</Type>
+			<Color>0,0,0,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>CIVILIZATION_WITCHSPRING</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_CIVILIZATION_WITCHSPRING_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_CIVILIZATION_WITCHSPRING_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+
+</GameData>

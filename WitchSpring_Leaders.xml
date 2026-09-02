@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Wither_Leaders -->
+<!-- Author: 86139 -->
+<!-- DateCreated: 11/9/2024 11:45:20 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_PAIMEI" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_PAIMEI" Kind="KIND_TRAIT"/>
+		<!--Row Type="LEADER_LUNA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_AILUDI" Kind="KIND_LEADER"/-->
+	</Types>
+	
+	<Leaders>
+		<Row LeaderType="LEADER_PAIMEI" Name="LOC_LEADER_PAIMEI_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<!--Row LeaderType="LEADER_LUNA" Name="LOC_LEADER_LUNA_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_AILUDI" Name="LOC_LEADER_AILUDI_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/-->
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_PAIMEI" TraitType="TRAIT_UNIT_PAIMEI"/>
+		<Row LeaderType="LEADER_PAIMEI" TraitType="TRAIT_LEADER_PAIMEI"/>
+	</LeaderTraits>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_PAIMEI" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_PAIMEI_QUOTE" QuoteAudio="Play_GERM_FB_MISC_PEP_TALK_B"/>
+		<!--Row LeaderType="LEADER_LUNA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_LUNA_QUOTE" QuoteAudio="Play_GERM_FB_MISC_PEP_TALK_B"/>
+		<Row LeaderType="LEADER_AILUDI" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_AILUDI_QUOTE" QuoteAudio="Play_GERM_FB_MISC_PEP_TALK_B"/-->
+	</LeaderQuotes>
+	<!--<DiplomacyInfo>
+		<Row Type="LEADER_PAIMEI" BackgroundImage="BG_PAIMEI"/>
+	</DiplomacyInfo>-->
+</GameData>

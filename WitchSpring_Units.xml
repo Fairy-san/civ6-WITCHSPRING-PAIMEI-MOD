@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Types>
+		<Row Type="UNIT_PAIMEI" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_PAIMEI" Kind="KIND_ABILITY"/>
+		<Row Type="PROMOTION_CLASS_PAIMEI" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_PAIMEI_L1_1" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L2_1" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L3_1" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L1_3" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L2_3" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L3_3" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L1_2" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L2_2" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L3_2" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_PAIMEI_L4" Kind="KIND_PROMOTION"/>
+
+	</Types>
+
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_PAIMEI" Name="LOC_PROMOTION_CLASS_PAIMEI_NAME"/>
+	</UnitPromotionClasses>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_PAIMEI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PAIMEI" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_PAIMEI" AiType="UNITAI_BUILD"/>
+		<Row UnitType="UNIT_PAIMEI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_PAIMEI" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>	
+	
+	<Units_XP2>
+		<Row UnitType="UNIT_PAIMEI" CanFormMilitaryFormation="false" MajorCivOnly="true"/>	
+	</Units_XP2>
+
+	<Units>
+		<!-- 不可主动生产，不可购买 -->
+		<Row UnitType="UNIT_PAIMEI" PrereqPopulation="9999" BuildCharges="3" BaseMoves="3" Cost="9999"
+			 AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" CanTargetAir="TRUE"
+			 FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_TRAIT_UNIT_PAIMEI_NAME" 
+			 Description="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Maintenance="1" Combat="25" RangedCombat="18" Range="2" AntiAirCombat="15"
+			 TraitType="TRAIT_UNIT_PAIMEI" PromotionClass="PROMOTION_CLASS_PAIMEI" CanCapture="False" CanRetreatWhenCaptured="True"/>
+	</Units>
+	<UnitRetreats_XP1>
+		<Row UnitRetreatType="UNIT_RETREAT_PAIMEI_TO_CAPITAL" UnitType="UNIT_PAIMEI" BuildingType="BUILDING_PALACE"/>
+	</UnitRetreats_XP1>
+	
+	<Tags>
+		<Row Tag="CLASS_PAIMEI" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_PAIMEI" Tag="CLASS_PAIMEI"/>
+		<Row Type="UNIT_PAIMEI" Tag="CLASS_PAIMEI"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_PAIMEI" Name="LOC_ABILITY_PAIMEI_NAME" Description="LOC_ABILITY_PAIMEI_DESCRIPTION"/>
+	</UnitAbilities>
+
+	<ModifierStrings>
+		<Row ModifierId="PAIMEI_IGNOREZOC_IGNORE_ZOC" Context="Preview" Text="LOC_ABILITY_PAIMEI_IGNOREZOC_IGNORE_ZOC_DESCRIPTION"/>
+		<Row ModifierId="UNIT_PAIMEI_GDR_ARMOR_DEFENSES" Context="Preview" Text="+{1_Amount} {LOC_UNIT_PAIMEI_GDR_ARMOR_DEFENSES_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_BONUS_1" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_MOVEMENT_1" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_all_BONUS_1" Context="Preview" Text="{LOC_ALL_UNITS}+{1_Amount} {LOC_PROMOTION_PAIMEI_L1_3_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_BONUS_2" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L1_3_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY" Context="Preview" Text="{LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY} {LOC_PROMOTION_PAIMEI_L1_3_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_BONUS_3" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L2_3_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_all_MOVEMENT_1" Context="Preview" Text="{LOC_ALL_UNITS}+{1_Amount} {LOC_PROMOTION_PAIMEI_L2_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_BONUS_4" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L2_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_BONUS_5" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_MOVEMENT_2" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L3_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="UNIT_PAIMEI_BONUS_6" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L3_3_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<!--<Row ModifierId="PAIMEI_GDR_WMD_RESISTANCE" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L3_3_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>-->
+		<Row ModifierId="UNIT_PAIMEI_BONUS_7" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L4_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<!--<Row ModifierId="UNIT_PAIMEI_ADJUST_NUM_ATTACKS" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_PAIMEI_L4_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>-->
+		<Row ModifierId="MODIFIER_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH" Context="Preview" Text="+{1_Amount} {LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME}"/>
+		<Row ModifierId="MODIFIER_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH" Context="Preview" Text="+{1_Amount} {LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME}"/>
+		<Row ModifierId="MODIFIER_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH" Context="Preview" Text="+{1_Amount} {LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME}"/>
+	</ModifierStrings>
+
+	<UnitPromotions>
+		<!-- PAIMEI -->
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L1_1" Name="LOC_PROMOTION_PAIMEI_L1_1_NAME" Description="LOC_PROMOTION_PAIMEI_L1_1_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L1_3" Name="LOC_PROMOTION_PAIMEI_L1_3_NAME" Description="LOC_PROMOTION_PAIMEI_L1_3_DESCRIPTION" Level="1" Column="5" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L2_1" Name="LOC_PROMOTION_PAIMEI_L2_1_NAME" Description="LOC_PROMOTION_PAIMEI_L2_1_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L2_3" Name="LOC_PROMOTION_PAIMEI_L2_3_NAME" Description="LOC_PROMOTION_PAIMEI_L2_3_DESCRIPTION" Level="2" Column="5" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L3_1" Name="LOC_PROMOTION_PAIMEI_L3_1_NAME" Description="LOC_PROMOTION_PAIMEI_L3_1_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L3_3" Name="LOC_PROMOTION_PAIMEI_L3_3_NAME" Description="LOC_PROMOTION_PAIMEI_L3_3_DESCRIPTION" Level="3" Column="5" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L1_2" Name="LOC_PROMOTION_PAIMEI_L1_2_NAME" Description="LOC_PROMOTION_PAIMEI_L1_2_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L2_2" Name="LOC_PROMOTION_PAIMEI_L2_2_NAME" Description="LOC_PROMOTION_PAIMEI_L2_2_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L3_2" Name="LOC_PROMOTION_PAIMEI_L3_2_NAME" Description="LOC_PROMOTION_PAIMEI_L3_2_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+		<Row UnitPromotionType="PROMOTION_PAIMEI_L4" Name="LOC_PROMOTION_PAIMEI_L4_NAME" Description="LOC_PROMOTION_PAIMEI_L4_DESCRIPTION" Level="4" Column="3" PromotionClass="PROMOTION_CLASS_PAIMEI"/>
+
+	</UnitPromotions>
+
+	<UnitPromotionPrereqs>
+		<!--PAIMEI-->
+		<Row UnitPromotion="PROMOTION_PAIMEI_L1_2" PrereqUnitPromotion="PROMOTION_PAIMEI_L1_1"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L1_3" PrereqUnitPromotion="PROMOTION_PAIMEI_L1_2"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L2_3" PrereqUnitPromotion="PROMOTION_PAIMEI_L1_3"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L2_2" PrereqUnitPromotion="PROMOTION_PAIMEI_L2_3"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L2_1" PrereqUnitPromotion="PROMOTION_PAIMEI_L2_2"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L3_1" PrereqUnitPromotion="PROMOTION_PAIMEI_L2_1"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L3_2" PrereqUnitPromotion="PROMOTION_PAIMEI_L3_1"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L3_3" PrereqUnitPromotion="PROMOTION_PAIMEI_L3_2"/>
+		<Row UnitPromotion="PROMOTION_PAIMEI_L4" PrereqUnitPromotion="PROMOTION_PAIMEI_L3_3"/>
+	</UnitPromotionPrereqs>
+<!--历史时刻插图-->
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_PAIMEI" Texture="MOMENT_UNIT_CREATED_FIRST_UNIQUE"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_MAGICPOT" Texture="Moment_Infrastructure_WitchSpring"/>
+	</MomentIllustrations>
+</GameData>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: 86139 -->
+<!-- DateCreated: 11/10/24 12:59:50 Sun -->
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_WITCHSPRING" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_UNIT_PAIMEI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_BUILDING_MAGICPOT" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" Name="LOC_CIVILIZATION_WITCHSPRING_NAME" 
+			 Description="LOC_CIVILIZATION_WITCHSPRING_DESCRIPTION" Adjective="LOC_CIVILIZATION_WITCHSPRING_ADJECTIVE" 
+			 RandomCityNameDepth="10" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" Ethnicity="ETHNICITY_SOUTHAM"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_PAIMEI" CapitalName="LOC_CITY_NAME_Dark_Witch_Forest"/>
+		<!--Row CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_LUNA" CapitalName="LOC_CITY_NAME_Snowfield_of_the_Ice_Snow_Witch"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" LeaderType="LEADER_AILUDI" CapitalName="LOC_CITY_NAME_Foggy_Forest"/-->
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_UNIT_PAIMEI" Name="LOC_TRAIT_UNIT_PAIMEI_NAME" Description="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_BUILDING_MAGICPOT" Name="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Description="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_PAIMEI" Name="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" Description="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION"/>
+	</Traits>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" TraitType="TRAIT_BUILDING_MAGICPOT"/>
+	</CivilizationTraits>
+	<ExcludedGreatPersonClasses>
+		<Row TraitType="TRAIT_BUILDING_MAGICPOT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/>
+	</ExcludedGreatPersonClasses>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CityName="LOC_CITY_NAME_Pudding_Cave"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CityName="LOC_CITY_NAME_Stone_Person_Cave_in_the_Back_Mountain"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CityName="LOC_CITY_NAME_WildBoar_Plain"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CityName="LOC_CITY_NAME_Lion_Plain"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CityName="LOC_CITY_NAME_Northern_Snow_Field"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CityName="LOC_CITY_NAME_Dragon_Valley"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CitizenName="LOC_CITIZEN_NAME_1"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CitizenName="LOC_CITIZEN_NAME_2"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CitizenName="LOC_CITIZEN_NAME_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" CitizenName="LOC_CITIZEN_NAME_4" Female="1"/>
+	</CivilizationCitizenNames>
+	<!-- 文明关联树林和森林 -->
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" FeatureType="FEATURE_JUNGLE" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_WITCHSPRING" FeatureType="FEATURE_FOREST" Tier="5"/>
+	</StartBiasFeatures>
+	<DiplomacyInfo>
+		<Row Type="LEADER_PAIMEI" BackgroundImage="BG_PAIMEI"/>
+	</DiplomacyInfo>
+	
+	<!--LoadingInfo>
+		<Row LeaderType="LEADER_PAIMEI"
+			 ForegroundImage="IMG_LOADING_FOREGROUND.dds"
+			 BackgroundImage="IMG_LOADING_BACKGROUND.dds"
+			 EraText="LOC_LOADING_INFO_LEADER_DEFAULT.dds"
+			 PlayDawnOfManAudio="1"/>
+	</LoadingInfo-->
+</GameData>

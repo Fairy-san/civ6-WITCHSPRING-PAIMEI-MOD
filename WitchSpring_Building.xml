@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 86139 -->
+<!-- DateCreated: 11/9/2024 11:41:53 PM -->
+<GameData>
+	<Types>
+		<Row Type="BUILDING_MAGICPOT" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_MAGICPOT" Name="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Description="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" 
+			 PrereqDistrict="DISTRICT_CITY_CENTER" Cost="9999" AdvisorType="ADVISOR_CULTURE" TraitType="TRAIT_BUILDING_MAGICPOT"/>
+	</Buildings>
+</GameData>

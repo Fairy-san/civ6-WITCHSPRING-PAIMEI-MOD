@@ -1,0 +1,22 @@
+# Civilization VI / ModBuddy temporary output
+*.log
+*.tmp
+*.bak
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+
+# Build and cache folders
+Build/
+Debug/
+Release/
+obj/
+bin/
+.vs/
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
