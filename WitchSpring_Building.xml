@@ -8,6 +8,6 @@
 	</Types>
 	<Buildings>
 		<Row BuildingType="BUILDING_MAGICPOT" Name="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Description="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" 
-				 PrereqDistrict="DISTRICT_CITY_CENTER" Cost="9999" AdvisorType="ADVISOR_CULTURE" TraitType="TRAIT_BUILDING_MAGICPOT" InternalOnly="true" MaxPlayerInstances="1"/>
+				 PrereqDistrict="DISTRICT_CITY_CENTER" Cost="99999" AdvisorType="ADVISOR_CULTURE" TraitType="TRAIT_BUILDING_MAGICPOT"/>
 	</Buildings>
 </GameData>
