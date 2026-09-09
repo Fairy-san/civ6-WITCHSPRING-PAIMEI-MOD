@@ -126,7 +126,7 @@
 			<Text>魔法缸</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>不可建造不可购买，派莓可以通过魔法缸完成速度训练和力量训练（如传送回首都需重新进入首都才可以进行训练），完成一定次数后可以提升解锁更高级的训练。</Text>
+			<Text>不可建造不可购买。派莓可以通过魔法缸进行魔女修行：探索路线提升机动性，炼成路线强化战斗力。完成一定次数后解锁更高级的修行，并在最终阶段把魔法分享给全军。</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_Dark_Witch_Forest" Language="zh_Hans_CN">
 			<Text>黑暗魔女森林</Text>
@@ -238,7 +238,7 @@
 			<Text>神殿④·杜蕾的庇护</Text>
 		</Replace>
 		<Row Tag="LOC_PROMOTION_PAIMEI_L4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>神殿④·引力：派莓力量+20，可以额外攻击一次，攻击后仍可移动，被派莓攻击的单位该回合无法行动，并获得对核弹与辐射的高抗性，所有城市+10%生产力。引力归于派莓——走过四座神殿，真正的魔女觉醒了。</Text>
+			<Text>神殿④·引力：派莓力量+100，可以额外攻击一次，攻击后仍可移动，被派莓攻击的单位该回合无法行动，并获得对核弹与辐射的高抗性，所有城市+10%生产力。引力归于派莓——走过四座神殿，真正的魔女觉醒了。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_NAME" Language="zh_Hans_CN">
 			<Text>游泳</Text>
@@ -247,10 +247,10 @@
 			<Text>初级速度训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>小幅提升派莓的移速</Text>
+			<Text>派莓深入黑暗魔女森林采集魔法材料，移动力+1。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
-			<Text>小幅提升派莓的移速</Text>
+			<Text>魔法材料塞满了篮子，派莓也学会了在森林里跑得更快。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
 			<Text>冥想</Text>
@@ -259,10 +259,10 @@
 			<Text>初级魔法训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>小幅提升派莓的魔力（力量）</Text>
+			<Text>派莓与后山石人切磋，力量+5。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
-			<Text>小幅提升派莓的魔力（力量）</Text>
+			<Text>石人又倒下了。派莓把战斗经验记进了下一瓶魔法药剂。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_NAME" Language="zh_Hans_CN">
 			<Text>击打木桩</Text>
@@ -271,10 +271,10 @@
 			<Text>中级速度训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>提升派莓的移速</Text>
+			<Text>派莓驯服坐骑卢克，移动力+2。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
-			<Text>提升派莓的移速</Text>
+			<Text>卢克终于愿意听指挥了。大多数时候如此。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
 			<Text>练习制作</Text>
@@ -283,10 +283,10 @@
 			<Text>中级魔法训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>提升派莓的魔力（力量）</Text>
+			<Text>在魔法缸中调配战斗药剂，派莓力量+10，所有单位获取经验速度额外增加25%。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
-			<Text>提升派莓的魔力（力量）</Text>
+			<Text>药剂爆炸了，但爆炸本身也很有训练价值。全军的战斗经验增长了。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_NAME" Language="zh_Hans_CN">
 			<Text>跑步</Text>
@@ -295,10 +295,10 @@
 			<Text>高级速度训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>大幅提升派莓的移速</Text>
+			<Text>派莓掌握飞行魔法，移动力+3；魔法余波使所有单位移动力+1。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
-			<Text>大幅提升派莓的反应速度（移速）</Text>
+			<Text>从黑暗魔女森林起飞，整支军队都学会了少走弯路。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="zh_Hans_CN">
 			<Text>练习魔法</Text>
@@ -307,16 +307,16 @@
 			<Text>高级魔法训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>大幅提升派莓的魔力（力量）</Text>
+			<Text>唤醒派莓体内的纯血神族之力，力量+15；所有单位力量+5。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
-			<Text>大幅提升派莓的魔力（力量）</Text>
+			<Text>魔法缸的光芒照亮了森林。派莓的力量，也终于不再只属于派莓。</Text>
 		</Row>
 		<Row Tag="LOC_TECH_ALLOW_PROJECT_NAME" Language="zh_Hans_CN">
-			<Text>许可通知</Text>
+			<Text>魔法缸研究许可</Text>
 		</Row>
 		<Row Tag="LOC_TECH_ALLOW_PROJECT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可以运行项目</Text>
+			<Text>解锁魔法缸的魔女修行项目。</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_PAIMEI_NAME" Language="zh_Hans_CN">
 			<Text>飞行魔法</Text>
