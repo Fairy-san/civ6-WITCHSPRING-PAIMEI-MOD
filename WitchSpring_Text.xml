@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	<EnglishText>
-		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_NAME">
-			<Text>LOC_LEADER_PAIMEI_ABILITY_NAME</Text>
-		</Row>
-		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION">
-			<Text>LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION</Text>
-		</Row>
-	</EnglishText>
-	<BaseGameText>
+<BaseGameText>
 		<Row Tag="LOC_ALL_UNITS">
 			<Text>LOC_ALL_UNITS</Text>
 		</Row>
@@ -247,7 +239,7 @@
 			<Text>初级速度训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>派莓深入黑暗魔女森林采集魔法材料，移动力+1。</Text>
+			<Text>派莓深入黑暗魔女森林采集魔法材料，移动力+1。 项目要求：城市拥有魔法缸，且派莓位于该城市市中心。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
 			<Text>魔法材料塞满了篮子，派莓也学会了在森林里跑得更快。</Text>
@@ -259,7 +251,7 @@
 			<Text>初级魔法训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>派莓与后山石人切磋，力量+5。</Text>
+			<Text>派莓与后山石人切磋，力量+5。 项目要求：城市拥有魔法缸，且派莓位于该城市市中心。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
 			<Text>石人又倒下了。派莓把战斗经验记进了下一瓶魔法药剂。</Text>
@@ -271,7 +263,7 @@
 			<Text>中级速度训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>派莓驯服坐骑卢克，移动力+2。</Text>
+			<Text>派莓驯服坐骑卢克，移动力+2。 项目要求：城市拥有魔法缸，且派莓位于该城市市中心。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
 			<Text>卢克终于愿意听指挥了。大多数时候如此。</Text>
@@ -283,7 +275,7 @@
 			<Text>中级魔法训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在魔法缸中调配战斗药剂，派莓力量+10，所有单位获取经验速度额外增加25%。</Text>
+			<Text>在魔法缸中调配战斗药剂，派莓力量+10，所有单位获取经验速度额外增加25%。 项目要求：城市拥有魔法缸，且派莓位于该城市市中心。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
 			<Text>药剂爆炸了，但爆炸本身也很有训练价值。全军的战斗经验增长了。</Text>
@@ -295,7 +287,7 @@
 			<Text>高级速度训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>派莓掌握飞行魔法，移动力+3；魔法余波使所有单位移动力+1。</Text>
+			<Text>派莓掌握飞行魔法，移动力+3；魔法余波使所有单位移动力+1。 项目要求：城市拥有魔法缸，且派莓位于该城市市中心。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="zh_Hans_CN">
 			<Text>从黑暗魔女森林起飞，整支军队都学会了少走弯路。</Text>
@@ -307,7 +299,7 @@
 			<Text>高级魔法训练</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>唤醒派莓体内的纯血神族之力，力量+15；所有单位力量+5。</Text>
+			<Text>唤醒派莓体内的纯血神族之力，力量+15；所有单位力量+5。 项目要求：城市拥有魔法缸，且派莓位于该城市市中心。</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="zh_Hans_CN">
 			<Text>魔法缸的光芒照亮了森林。派莓的力量，也终于不再只属于派莓。</Text>
@@ -347,6 +339,784 @@
 		</Row>
 		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_CLOSE" Language="zh_Hans_CN">
 			<Text>关闭</Text>
+		</Row>
+
+		<!-- English -->
+		<Replace Tag="LOC_ALL_UNITS" Language="en_US">
+			<Text>All Friendly Units</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY" Language="en_US">
+			<Text>Ranged attacks against cities and Encampments are 100% effective</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" Language="en_US">
+			<Text>Witch&apos;s Cottage</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>Your capital starts with the unique unit Paimei and unique building Magic Pot.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PAIMEI" Language="en_US">
+			<Text>Humans call Paimei a witch and the forest where she lives the Dark Witch Forest. Yet Paimei does not know where she was born, when she began, or why she came to live alone in this forest. She chose the name Paimei herself because she loves pies and strawberries most. She was born cheerful and warm, and even living alone, she never feels bitter or sad.</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_NAME" Language="en_US">
+			<Text>Paimei</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_CLASS_PAIMEI_NAME" Language="en_US">
+			<Text>Witch</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Language="en_US">
+			<Text>Paimei is a unique unit and a pure-blooded deity with immense magic and potential. She has a unique promotion tree, can train to improve her Strength and Movement, and can use teleportation magic to return directly to the Dark Witch Forest. She cannot be trained or purchased. Humans call Paimei a witch and the forest where she lives the Dark Witch Forest. Yet Paimei does not know where she was born, when she began, or why she came to live alone in this forest. She chose the name Paimei herself because she loves pies and strawberries most. She was born cheerful and warm, and even living alone, she never feels bitter or sad.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_NAME" Language="en_US">
+			<Text>WitchSpring</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_DESCRIPTION" Language="en_US">
+			<Text>WitchSpring</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ADJECTIVE" Language="en_US">
+			<Text>In ancient times, there were gods. They brought rain to humanity and sometimes even helped the dead return to life. Humans worshipped and praised them, honoring them with all their hearts. But awe and praise soon evolved into a desire to possess divine power. “I want to have it.” Humanity&apos;s desire had always been hidden behind the mask of reverence and praise. It finally revealed itself when the source of power was discovered. “We can become gods, too.” The gods once worshipped by humanity became known as demons. They were slaughtered, and the sources of their power were seized. New nations and religions gradually arose, performing miracles and strange wonders upon humanity as before. Apart from the disappearance of the gods, it seemed that nothing had changed.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_NAME" Language="en_US">
+			<Text>Balthar&apos;s Protection</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>This civilization cannot found a Religion, but all units gain experience 50% faster. When a civilization that has founded a Religion declares war on this civilization, all cities gain +100% Production for 10 turns.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_NAME" Language="en_US">
+			<Text>Paimei</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_NAME" Language="en_US">
+			<Text>Witch&apos;s Cottage</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>Your capital starts with the unique unit Paimei and unique building Magic Pot.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Language="en_US">
+			<Text>Magic Pot</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Language="en_US">
+			<Text>Cannot be built or purchased. Paimei can use the Magic Pot for witch training: the Exploration path improves Mobility, while the Alchemy path strengthens Combat. Complete enough training to unlock advanced practices, then share the magic with the entire army in the final stage.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dark_Witch_Forest" Language="en_US">
+			<Text>Dark Witch Forest</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Pudding_Cave" Language="en_US">
+			<Text>Pudding Cave</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Stone_Person_Cave_in_the_Back_Mountain" Language="en_US">
+			<Text>Stone Person Cave in the Back Mountain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WildBoar_Plain" Language="en_US">
+			<Text>Wild Boar Plain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Lion_Plain" Language="en_US">
+			<Text>Lion Plain</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Northern_Snow_Field" Language="en_US">
+			<Text>Northern Snowfield</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dragon_Valley" Language="en_US">
+			<Text>Dragon Valley</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_1" Language="en_US">
+			<Text>Blackjoy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_2" Language="en_US">
+			<Text>Ethan</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_3" Language="en_US">
+			<Text>Livia</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_4" Language="en_US">
+			<Text>Kana</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PAIMEI_QUOTE" Language="en_US">
+			<Text>Humans call Paimei a witch and the forest where she lives the Dark Witch Forest. Yet Paimei does not know where she was born, when she began, or why she came to live alone in this forest. She chose the name Paimei herself because she loves pies and strawberries most. She was born cheerful and warm, and even living alone, she never feels bitter or sad.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_1_NAME" Language="en_US">
+			<Text>Agility Potion</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_1_DESCRIPTION" Language="en_US">
+			<Text>Paimei Movement +1. Introduction to Alchemy: run fast to gather more mushrooms.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_2_NAME" Language="en_US">
+			<Text>Back-Mountain Training</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_2_DESCRIPTION" Language="en_US">
+			<Text>Paimei Strength +5. Sparring with the Stone Person of the Back Mountain is part of every morning&apos;s training.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_3_NAME" Language="en_US">
+			<Text>Temple I: Arua&apos;s Protection</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_3_DESCRIPTION" Language="en_US">
+			<Text>Temple I - Lightning: Paimei Strength +20 and all cities gain +10% Production. Arua&apos;s temple tempers Paimei&apos;s power with thunder.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_3_NAME" Language="en_US">
+			<Text>Chanting Improvement</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_3_DESCRIPTION" Language="en_US">
+			<Text>Paimei Attack Range +1, and ranged attacks against cities and Encampments are 100% effective. Her chants reach farther and faster; at last, magic can strike the walls.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_2_NAME" Language="en_US">
+			<Text>Mana Shield</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_2_DESCRIPTION" Language="en_US">
+			<Text>Paimei gains +10 Strength when defending, and all cities gain +200 Outer Defense. A shield woven from mana protects both people and walls.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_1_NAME" Language="en_US">
+			<Text>Temple II: Einhard&apos;s Protection</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_1_DESCRIPTION" Language="en_US">
+			<Text>Temple II - Defense: Paimei Strength +20, all units gain +1 Movement, and all cities gain +10% Production. Einhard&apos;s temple wraps Paimei in the protection of the earth.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_1_NAME" Language="en_US">
+			<Text>Temple III: Elysion&apos;s Protection</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_1_DESCRIPTION" Language="en_US">
+			<Text>Temple III - Life: all cities gain +1 Population, +1 Housing, and +10% Production; Builders gain +1 build charge. Elysion&apos;s temple makes the forest thrive.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_2_NAME" Language="en_US">
+			<Text>Divine Radiance</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_2_DESCRIPTION" Language="en_US">
+			<Text>Paimei Strength +25 and all units gain +5 Strength. Her divine blood awakens, and its pressure radiates naturally.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_3_NAME" Language="en_US">
+			<Text>Mount Luke</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_3_DESCRIPTION" Language="en_US">
+			<Text>Paimei Movement +2. Once mounted on Luke, forests and plains pass in an instant.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L4_NAME" Language="en_US">
+			<Text>Temple IV: Durei&apos;s Protection</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L4_DESCRIPTION" Language="en_US">
+			<Text>Temple IV - Gravity: Paimei Strength +100, can make one additional attack, and can still move after attacking. Units attacked by Paimei cannot act that turn and gain high resistance to nuclear weapons and radiation. All cities gain +10% Production. Gravity belongs to Paimei - after passing through four temples, the true witch awakens.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_NAME" Language="en_US">
+			<Text>Swimming</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="en_US">
+			<Text>Basic Speed Training</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>Paimei ventures into the Dark Witch Forest to gather magical materials, gaining +1 Movement. Requires the city to have a Magic Pot and Paimei to be in the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="en_US">
+			<Text>The basket is filled with magical materials, and Paimei learns to run faster through the forest.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="en_US">
+			<Text>Meditation</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="en_US">
+			<Text>Basic Magic Training</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>Paimei spars with the Stone Person of the Back Mountain, gaining +5 Strength. Requires the city to have a Magic Pot and Paimei to be in the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="en_US">
+			<Text>The Stone Person has fallen again. Paimei puts the battle experience into her next magic potion.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_NAME" Language="en_US">
+			<Text>Hitting the Dummy</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="en_US">
+			<Text>Intermediate Speed Training</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>Paimei tames her mount Luke, gaining +2 Movement. Requires the city to have a Magic Pot and Paimei to be in the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="en_US">
+			<Text>Luke finally agrees to follow orders. Most of the time.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="en_US">
+			<Text>Practice Crafting</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="en_US">
+			<Text>Intermediate Magic Training</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>Paimei brews combat potions in the Magic Pot, gaining +10 Strength; all units gain experience 25% faster. Requires the city to have a Magic Pot and Paimei to be in the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="en_US">
+			<Text>The potion exploded, but the explosion itself was valuable training. The entire army is gaining combat experience.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_NAME" Language="en_US">
+			<Text>Running</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="en_US">
+			<Text>Advanced Speed Training</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="en_US">
+			<Text>Paimei masters flight magic, gaining +3 Movement; the magical aftershock grants all units +1 Movement. Requires the city to have a Magic Pot and Paimei to be in the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="en_US">
+			<Text>Taking flight from the Dark Witch Forest, the entire army learns to take the shorter path.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="en_US">
+			<Text>Practicing Magic</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="en_US">
+			<Text>Advanced Magic Training</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="en_US">
+			<Text>Awaken Paimei&apos;s pure-blooded divine power, gaining +15 Strength; all units gain +5 Strength. Requires the city to have a Magic Pot and Paimei to be in the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="en_US">
+			<Text>The Magic Pot&apos;s radiance illuminates the forest. Paimei&apos;s power no longer belongs to Paimei alone.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_NAME" Language="en_US">
+			<Text>Magic Pot Research License</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_DESCRIPTION" Language="en_US">
+			<Text>Unlocks witch training projects at the Magic Pot.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_NAME" Language="en_US">
+			<Text>Flight Magic</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_DESCRIPTION" Language="en_US">
+			<Text>Paimei ignores Zone of Control, can attack from water, teleport to the capital, and improve or remove terrain features.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_IGNOREZOC_IGNORE_ZOC_DESCRIPTION" Language="en_US">
+			<Text>Paimei ignores Zone of Control</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PAIMEI_GDR_ARMOR_DEFENSES_NAME" Language="en_US">
+			<Text>Mana Shield</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CAPITAL_BTN_TT" Language="en_US">
+			<Text>Teleport to Capital</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_TITLE" Language="en_US">
+			<Text>Teleport to City</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_BTN_TT" Language="en_US">
+			<Text>Airlift: Choose a city to teleport Paimei to. Paimei cannot act this turn after teleporting.</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_NOCITY" Language="en_US">
+			<Text>There are no cities to teleport to.</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_FAIL" Language="en_US">
+			<Text>Teleport failed: there is no empty space in or around the City Center.</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_CLOSE" Language="en_US">
+			<Text>Close</Text>
+		</Row>
+		<!-- Japanese -->
+		<Replace Tag="LOC_ALL_UNITS" Language="ja_JP">
+			<Text>すべての友軍ユニット</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY" Language="ja_JP">
+			<Text>都市および兵営への遠隔攻撃が100%有効</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" Language="ja_JP">
+			<Text>魔女の小屋</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="ja_JP">
+			<Text>首都に固有ユニット「パイメイ」と固有建造物「魔法の壺」が直接配備される。</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PAIMEI" Language="ja_JP">
+			<Text>人々はパイメイを「魔女」と呼び、彼女が暮らす森を「闇の魔女の森」と呼んでいる。しかし、パイメイは自分がどこで生まれ、いつから、なぜこの森で一人暮らしを始めたのかを知らない。パイメイという名前は、パイとイチゴが大好きだから自分でつけた。生まれつき明るく温かな性格で、一人で暮らしていても苦しみや悲しみを感じることはない。</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_NAME" Language="ja_JP">
+			<Text>パイメイ</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_CLASS_PAIMEI_NAME" Language="ja_JP">
+			<Text>魔女</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Language="ja_JP">
+			<Text>固有ユニットのパイメイは、強大な魔力と大きな可能性を持つ純血の神族である。独自の昇進ツリーを持ち、訓練によって戦闘力と移動力を高め、転移魔法で闇の魔女の森へ直接戻ることができる。生産も購入もできない。人々はパイメイを「魔女」と呼び、彼女が暮らす森を「闇の魔女の森」と呼んでいる。しかし、パイメイは自分がどこで生まれ、いつから、なぜこの森で一人暮らしを始めたのかを知らない。パイメイという名前は、パイとイチゴが大好きだから自分でつけた。生まれつき明るく温かな性格で、一人で暮らしていても苦しみや悲しみを感じることはない。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_NAME" Language="ja_JP">
+			<Text>魔女の泉</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_DESCRIPTION" Language="ja_JP">
+			<Text>魔女の泉</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ADJECTIVE" Language="ja_JP">
+			<Text>太古の昔、神々が存在した。神々は人々に雨をもたらし、ときには死者を蘇らせることさえあった。人々は神々を崇め、称え、心から敬っていた。しかし、畏れと称賛はやがて神の力を手にしたいという欲望へと変わった。「手に入れたい」。人々の欲望は、畏敬と称賛という仮面の裏に隠されていた。そして力の源が発見されたとき、ついにその姿を現した。「私たちも神になれる」。かつて人々に崇められた神族は、今や「魔族」と呼ばれた。彼らは皆殺しにされ、所有していた力の源を奪われた。新たな国家と宗教が次々に現れ、かつてと同じように人々へ奇跡と奇行をもたらした。神々が消えたことを除けば、何も変わっていないように見えた。</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_NAME" Language="ja_JP">
+			<Text>バルタールの加護</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" Language="ja_JP">
+			<Text>この文明は宗教を創始できないが、すべてのユニットの経験値獲得速度が50%上昇する。宗教を創始した文明がこの文明に宣戦布告すると、すべての都市の生産力が10ターンの間100%上昇する。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_NAME" Language="ja_JP">
+			<Text>パイメイ</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_NAME" Language="ja_JP">
+			<Text>魔女の小屋</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="ja_JP">
+			<Text>首都に固有ユニット「パイメイ」と固有建造物「魔法の壺」が直接配備される。</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Language="ja_JP">
+			<Text>魔法の壺</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Language="ja_JP">
+			<Text>建造も購入もできない。パイメイは魔法の壺で魔女の修行を行える。探索ルートは機動力を高め、錬成ルートは戦闘力を強化する。一定回数修行すると上級修行が解禁され、最終段階では魔法を全軍に分け与える。</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dark_Witch_Forest" Language="ja_JP">
+			<Text>闇の魔女の森</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Pudding_Cave" Language="ja_JP">
+			<Text>プリン洞窟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Stone_Person_Cave_in_the_Back_Mountain" Language="ja_JP">
+			<Text>裏山の石人洞窟</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WildBoar_Plain" Language="ja_JP">
+			<Text>イノシシ平原</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Lion_Plain" Language="ja_JP">
+			<Text>ライオン平原</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Northern_Snow_Field" Language="ja_JP">
+			<Text>北部雪原</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dragon_Valley" Language="ja_JP">
+			<Text>竜の谷</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_1" Language="ja_JP">
+			<Text>ブラックジョイ</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_2" Language="ja_JP">
+			<Text>イーサン</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_3" Language="ja_JP">
+			<Text>リビア</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_4" Language="ja_JP">
+			<Text>カナ</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PAIMEI_QUOTE" Language="ja_JP">
+			<Text>人々はパイメイを「魔女」と呼び、彼女が暮らす森を「闇の魔女の森」と呼んでいる。しかし、パイメイは自分がどこで生まれ、いつから、なぜこの森で一人暮らしを始めたのかを知らない。パイメイという名前は、パイとイチゴが大好きだから自分でつけた。生まれつき明るく温かな性格で、一人で暮らしていても苦しみや悲しみを感じることはない。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_1_NAME" Language="ja_JP">
+			<Text>敏捷の薬</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_1_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイの移動力+1。錬金術入門：速く走れば、キノコをたくさん採れる。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_2_NAME" Language="ja_JP">
+			<Text>裏山修行</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_2_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイの戦闘力+5。裏山の石人との手合わせは、毎朝の必修科目だ。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_3_NAME" Language="ja_JP">
+			<Text>神殿①・アルアの加護</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_3_DESCRIPTION" Language="ja_JP">
+			<Text>神殿①・雷：パイメイの戦闘力+20、すべての都市の生産力+10%。アルアの神殿が雷でパイメイの力を鍛える。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_3_NAME" Language="ja_JP">
+			<Text>詠唱改良</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_3_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイの攻撃範囲+1、都市および兵営への遠隔攻撃が100%有効になる。詠唱はより速く遠くへ届き、ついに魔法が城壁を撃ち抜く。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_2_NAME" Language="ja_JP">
+			<Text>魔力の盾</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_2_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは防衛時に戦闘力+10、すべての都市の外郭防御+200。魔力で編まれた盾が、人も城も守る。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_1_NAME" Language="ja_JP">
+			<Text>神殿②・アインハルトの加護</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_1_DESCRIPTION" Language="ja_JP">
+			<Text>神殿②・防御：パイメイの戦闘力+20、すべてのユニットの移動力+1、すべての都市の生産力+10%。アインハルトの神殿が大地の守りでパイメイを包む。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_1_NAME" Language="ja_JP">
+			<Text>神殿③・エリシオンの加護</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_1_DESCRIPTION" Language="ja_JP">
+			<Text>神殿③・生命：すべての都市の人口+1、住宅+1、生産力+10%、建設者の使用回数+1。エリシオンの神殿が森に命を吹き込む。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_2_NAME" Language="ja_JP">
+			<Text>神族の威光</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_2_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイの戦闘力+25、すべてのユニットの戦闘力+5。神族の血が目覚め、その威圧感が自然に放たれる。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_3_NAME" Language="ja_JP">
+			<Text>乗騎ルーク</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_3_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイの移動力+2。乗騎ルークにまたがれば、森も平原も一瞬で駆け抜けられる。</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L4_NAME" Language="ja_JP">
+			<Text>神殿④・ドゥレイの加護</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L4_DESCRIPTION" Language="ja_JP">
+			<Text>神殿④・引力：パイメイの戦闘力+100、追加攻撃を1回行え、攻撃後も移動できる。パイメイに攻撃されたユニットはそのターン行動できず、核兵器と放射線への高い耐性を得る。すべての都市の生産力+10%。引力はパイメイに帰す――四つの神殿を巡り、真の魔女が目覚める。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_NAME" Language="ja_JP">
+			<Text>水泳</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="ja_JP">
+			<Text>初級速度訓練</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは闇の魔女の森へ入り、魔法素材を集めて移動力+1を得る。 魔法の壺がある都市で、パイメイがその都市の市中心部にいる必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="ja_JP">
+			<Text>魔法素材でかごがいっぱいになり、パイメイは森をより速く走れるようになった。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="ja_JP">
+			<Text>瞑想</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="ja_JP">
+			<Text>初級魔法訓練</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは裏山の石人と手合わせし、戦闘力+5を得る。 魔法の壺がある都市で、パイメイがその都市の市中心部にいる必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="ja_JP">
+			<Text>石人はまた倒れた。パイメイは戦いの経験を次の魔法薬に刻み込む。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_NAME" Language="ja_JP">
+			<Text>木人打ち</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="ja_JP">
+			<Text>中級速度訓練</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは乗騎ルークを手なづけ、移動力+2を得る。 魔法の壺がある都市で、パイメイがその都市の市中心部にいる必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="ja_JP">
+			<Text>ルークがついに命令を聞くようになった。たいていは。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="ja_JP">
+			<Text>調合の練習</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="ja_JP">
+			<Text>中級魔法訓練</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="ja_JP">
+			<Text>魔法の壺で戦闘薬を調合し、パイメイの戦闘力+10、すべてのユニットの経験値獲得速度がさらに25%上昇する。 魔法の壺がある都市で、パイメイがその都市の市中心部にいる必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="ja_JP">
+			<Text>薬が爆発した。しかし爆発そのものにも訓練の価値はある。全軍の戦闘経験が増加した。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_NAME" Language="ja_JP">
+			<Text>走る</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="ja_JP">
+			<Text>上級速度訓練</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは飛行魔法を身につけ、移動力+3を得る。魔法の余波により、すべてのユニットの移動力+1。 魔法の壺がある都市で、パイメイがその都市の市中心部にいる必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="ja_JP">
+			<Text>闇の魔女の森から飛び立ち、軍全体が遠回りをしない方法を学んだ。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="ja_JP">
+			<Text>魔法の練習</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="ja_JP">
+			<Text>上級魔法訓練</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイの純血神族の力を目覚めさせ、戦闘力+15。すべてのユニットの戦闘力+5。 魔法の壺がある都市で、パイメイがその都市の市中心部にいる必要がある。</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="ja_JP">
+			<Text>魔法の壺の光が森を照らした。パイメイの力は、もはやパイメイだけのものではない。</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_NAME" Language="ja_JP">
+			<Text>魔法の壺研究許可</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_DESCRIPTION" Language="ja_JP">
+			<Text>魔法の壺で魔女の修行プロジェクトを解禁する。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_NAME" Language="ja_JP">
+			<Text>飛行魔法</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは区域支配を無視し、水上から攻撃し、首都へテレポートし、地形改善を行ったり削除したりできる。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_IGNOREZOC_IGNORE_ZOC_DESCRIPTION" Language="ja_JP">
+			<Text>パイメイは区域支配を無視する</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PAIMEI_GDR_ARMOR_DEFENSES_NAME" Language="ja_JP">
+			<Text>魔力の盾</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CAPITAL_BTN_TT" Language="ja_JP">
+			<Text>首都へテレポート</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_TITLE" Language="ja_JP">
+			<Text>都市へテレポート</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_BTN_TT" Language="ja_JP">
+			<Text>空輸：パイメイがテレポートする都市を選択する（テレポート後、このターンは行動できない）。</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_NOCITY" Language="ja_JP">
+			<Text>テレポートできる都市がない。</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_FAIL" Language="ja_JP">
+			<Text>テレポート失敗：市中心部とその周囲に空き地がない。</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_CLOSE" Language="ja_JP">
+			<Text>閉じる</Text>
+		</Row>
+		<!-- Korean -->
+		<Replace Tag="LOC_ALL_UNITS" Language="ko_KR">
+			<Text>모든 아군 유닛</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_PAIMEI_IGNORE_RANGED_VS_DISTRICT_PENALTY" Language="ko_KR">
+			<Text>도시와 주둔지에 대한 원거리 공격 효율 100%</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_NAME" Language="ko_KR">
+			<Text>마녀의 오두막</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="ko_KR">
+			<Text>수도에 고유 유닛 파이메이와 고유 건물 마법 항아리가 즉시 주어집니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_INFO_LEADER_PAIMEI" Language="ko_KR">
+			<Text>사람들은 파이메이를 마녀라 부르고, 그녀가 사는 숲을 어둠의 마녀 숲이라 부릅니다. 그러나 파이메이는 자신이 어디에서 태어났는지, 언제부터 왜 이 숲에서 혼자 살게 되었는지 알지 못합니다. 파이메이라는 이름은 파이와 딸기를 가장 좋아해서 스스로 지었습니다. 본래 밝고 따뜻한 성격인 그녀는 혼자 살아도 쓰라리거나 슬퍼하지 않습니다.</Text>
+		</Replace>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_NAME" Language="ko_KR">
+			<Text>파이메이</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_CLASS_PAIMEI_NAME" Language="ko_KR">
+			<Text>마녀</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_UNIT_PAIMEI_DESCRIPTION" Language="ko_KR">
+			<Text>고유 유닛 파이메이는 강대한 마력과 엄청난 잠재력을 지닌 순혈 신족입니다. 고유 승급 트리를 보유하며 훈련을 통해 전투력과 이동력을 높이고, 순간이동 마법으로 어둠의 마녀 숲으로 바로 돌아갈 수 있습니다. 생산하거나 구매할 수 없습니다. 사람들은 파이메이를 마녀라 부르고, 그녀가 사는 숲을 어둠의 마녀 숲이라 부릅니다. 그러나 파이메이는 자신이 어디에서 태어났는지, 언제부터 왜 이 숲에서 혼자 살게 되었는지 알지 못합니다. 파이메이라는 이름은 파이와 딸기를 가장 좋아해서 스스로 지었습니다. 본래 밝고 따뜻한 성격인 그녀는 혼자 살아도 쓰라리거나 슬퍼하지 않습니다.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_NAME" Language="ko_KR">
+			<Text>마녀의 샘</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_DESCRIPTION" Language="ko_KR">
+			<Text>마녀의 샘</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ADJECTIVE" Language="ko_KR">
+			<Text>태고에는 신들이 존재했습니다. 신들은 인간에게 비를 내리고, 때로는 죽은 자를 되살리는 일까지 도왔습니다. 인간은 신들을 숭배하고 찬양하며 진심으로 경외했습니다. 그러나 경외와 찬양은 곧 신의 힘을 갖고 싶다는 욕망으로 변했습니다. “갖고 싶다.” 인간의 욕망은 경외와 찬양이라는 가면 뒤에 숨겨져 있었습니다. 마침내 힘의 근원이 발견되자 그 욕망은 모습을 드러냈습니다. “우리도 신이 될 수 있다.” 인간이 숭배하던 신족은 이제 마족이라 불렸고, 모두 학살당한 뒤 그 힘의 근원을 빼앗겼습니다. 새로운 국가와 종교가 차례로 나타나 예전처럼 인간에게 기적과 기행을 행했습니다. 신들이 사라졌다는 점을 제외하면 아무것도 변하지 않은 듯했습니다.</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_NAME" Language="ko_KR">
+			<Text>발타르의 가호</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_WITCHSPRING_ABILITY_DESCRIPTION" Language="ko_KR">
+			<Text>이 문명은 종교를 창시할 수 없지만 모든 유닛의 경험치 획득 속도가 50% 증가합니다. 종교를 창시한 문명이 이 문명에 전쟁을 선포하면 모든 도시의 생산력이 10턴 동안 100% 증가합니다.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_NAME" Language="ko_KR">
+			<Text>파이메이</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_NAME" Language="ko_KR">
+			<Text>마녀의 오두막</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_PAIMEI_ABILITY_DESCRIPTION" Language="ko_KR">
+			<Text>수도에 고유 유닛 파이메이와 고유 건물 마법 항아리가 즉시 주어집니다.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_NAME" Language="ko_KR">
+			<Text>마법 항아리</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_BUILDING_MAGICPOT_DESCRIPTION" Language="ko_KR">
+			<Text>건설하거나 구매할 수 없습니다. 파이메이는 마법 항아리에서 마녀의 수련을 할 수 있습니다. 탐험 경로는 기동력을 높이고, 연성 경로는 전투력을 강화합니다. 일정 횟수 수련하면 고급 수련이 해금되며, 마지막 단계에서는 마법을 전군과 나눕니다.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dark_Witch_Forest" Language="ko_KR">
+			<Text>어둠의 마녀 숲</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Pudding_Cave" Language="ko_KR">
+			<Text>푸딩 동굴</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Stone_Person_Cave_in_the_Back_Mountain" Language="ko_KR">
+			<Text>뒷산 석인 동굴</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_WildBoar_Plain" Language="ko_KR">
+			<Text>멧돼지 평원</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Lion_Plain" Language="ko_KR">
+			<Text>사자 평원</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Northern_Snow_Field" Language="ko_KR">
+			<Text>북부 설원</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_Dragon_Valley" Language="ko_KR">
+			<Text>용의 계곡</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_1" Language="ko_KR">
+			<Text>블랙조이</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_2" Language="ko_KR">
+			<Text>에단</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_3" Language="ko_KR">
+			<Text>리비아</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_NAME_4" Language="ko_KR">
+			<Text>카나</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_PAIMEI_QUOTE" Language="ko_KR">
+			<Text>사람들은 파이메이를 마녀라 부르고, 그녀가 사는 숲을 어둠의 마녀 숲이라 부릅니다. 그러나 파이메이는 자신이 어디에서 태어났는지, 언제부터 왜 이 숲에서 혼자 살게 되었는지 알지 못합니다. 파이메이라는 이름은 파이와 딸기를 가장 좋아해서 스스로 지었습니다. 본래 밝고 따뜻한 성격인 그녀는 혼자 살아도 쓰라리거나 슬퍼하지 않습니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_1_NAME" Language="ko_KR">
+			<Text>민첩의 물약</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_1_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이의 이동력 +1. 연금술 입문: 빨리 달려야 버섯을 더 많이 모을 수 있습니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_2_NAME" Language="ko_KR">
+			<Text>뒷산 수련</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_2_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이의 전투력 +5. 뒷산의 석인과 겨루는 것은 매일 아침의 필수 수련입니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L1_3_NAME" Language="ko_KR">
+			<Text>신전 ①·아루아의 가호</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L1_3_DESCRIPTION" Language="ko_KR">
+			<Text>신전 ①·번개: 파이메이의 전투력 +20, 모든 도시의 생산력 +10%. 아루아의 신전이 번개로 파이메이의 힘을 단련합니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_3_NAME" Language="ko_KR">
+			<Text>영창 개선</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_3_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이의 공격 범위 +1, 도시와 주둔지에 대한 원거리 공격 효율 100%. 영창이 더 빠르고 멀리 닿아 마침내 성벽까지 마법을 날릴 수 있습니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_2_NAME" Language="ko_KR">
+			<Text>마력 방패</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_2_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 방어 시 전투력 +10, 모든 도시의 성벽 방어력 +200. 마력으로 짜인 방패가 사람과 성벽을 함께 지킵니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L2_1_NAME" Language="ko_KR">
+			<Text>신전 ②·아인하르트의 가호</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L2_1_DESCRIPTION" Language="ko_KR">
+			<Text>신전 ②·방어: 파이메이의 전투력 +20, 모든 유닛의 이동력 +1, 모든 도시의 생산력 +10%. 아인하르트의 신전이 대지의 수호로 파이메이를 감쌉니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_1_NAME" Language="ko_KR">
+			<Text>신전 ③·엘리시온의 가호</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_1_DESCRIPTION" Language="ko_KR">
+			<Text>신전 ③·생명: 모든 도시의 인구 +1, 주거 공간 +1, 생산력 +10%, 건설자의 건설 횟수 +1. 엘리시온의 신전이 숲을 번성하게 합니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_2_NAME" Language="ko_KR">
+			<Text>신족의 위광</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_2_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이의 전투력 +25, 모든 유닛의 전투력 +5. 신족의 혈통이 깨어나며 위압감이 자연스럽게 퍼집니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L3_3_NAME" Language="ko_KR">
+			<Text>탈것 루크</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L3_3_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이의 이동력 +2. 탈것 루크에 올라타면 숲과 평원을 순식간에 가로지를 수 있습니다.</Text>
+		</Row>
+		<Replace Tag="LOC_PROMOTION_PAIMEI_L4_NAME" Language="ko_KR">
+			<Text>신전 ④·두레이의 가호</Text>
+		</Replace>
+		<Row Tag="LOC_PROMOTION_PAIMEI_L4_DESCRIPTION" Language="ko_KR">
+			<Text>신전 ④·중력: 파이메이의 전투력 +100, 추가 공격 1회, 공격 후에도 이동 가능. 파이메이에게 공격받은 유닛은 해당 턴에 행동할 수 없으며 핵무기와 방사능에 대한 높은 저항력을 얻습니다. 모든 도시의 생산력 +10%. 중력은 파이메이에게 귀속됩니다. 네 신전을 지나 진정한 마녀가 깨어납니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_NAME" Language="ko_KR">
+			<Text>수영</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="ko_KR">
+			<Text>초급 속도 훈련</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 어둠의 마녀 숲으로 들어가 마법 재료를 모으며 이동력 +1을 얻습니다. 도시에 마법 항아리가 있고 파이메이가 해당 도시의 도심에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="ko_KR">
+			<Text>마법 재료가 바구니를 가득 채웠고, 파이메이는 숲을 더 빠르게 달리는 법을 배웠습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="ko_KR">
+			<Text>명상</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="ko_KR">
+			<Text>초급 마법 훈련</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 뒷산의 석인과 겨루며 전투력 +5를 얻습니다. 도시에 마법 항아리가 있고 파이메이가 해당 도시의 도심에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_PRIMARY_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="ko_KR">
+			<Text>석인이 또 쓰러졌습니다. 파이메이는 전투 경험을 다음 마법 물약에 담았습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_NAME" Language="ko_KR">
+			<Text>허수아비 치기</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="ko_KR">
+			<Text>중급 속도 훈련</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 탈것 루크를 길들이며 이동력 +2를 얻습니다. 도시에 마법 항아리가 있고 파이메이가 해당 도시의 도심에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="ko_KR">
+			<Text>루크가 드디어 명령을 따르기 시작했습니다. 대부분의 경우에는요.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="ko_KR">
+			<Text>제작 연습</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="ko_KR">
+			<Text>중급 마법 훈련</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="ko_KR">
+			<Text>마법 항아리에서 전투 물약을 조제해 파이메이의 전투력 +10, 모든 유닛의 경험치 획득 속도가 추가로 25% 증가합니다. 도시에 마법 항아리가 있고 파이메이가 해당 도시의 도심에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_INTER_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="ko_KR">
+			<Text>물약이 폭발했습니다. 하지만 폭발 자체도 훌륭한 훈련이었습니다. 전군의 전투 경험이 증가했습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_NAME" Language="ko_KR">
+			<Text>달리기</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_SHORT_NAME" Language="ko_KR">
+			<Text>고급 속도 훈련</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 비행 마법을 터득해 이동력 +3을 얻고, 마법의 여파로 모든 유닛의 이동력 +1을 부여합니다. 도시에 마법 항아리가 있고 파이메이가 해당 도시의 도심에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_MOVEMENT_POPUP" Language="ko_KR">
+			<Text>어둠의 마녀 숲에서 날아오르며 전군이 지름길을 익혔습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_NAME" Language="ko_KR">
+			<Text>마법 연습</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_SHORT_NAME" Language="ko_KR">
+			<Text>고급 마법 훈련</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이 안의 순혈 신족의 힘을 깨워 전투력 +15, 모든 유닛의 전투력 +5를 얻습니다. 도시에 마법 항아리가 있고 파이메이가 해당 도시의 도심에 있어야 합니다.</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_ADVANCED_PAIMEI_ADJUST_COMBAT_STRENGTH_POPUP" Language="ko_KR">
+			<Text>마법 항아리의 빛이 숲을 밝힙니다. 파이메이의 힘은 더 이상 파이메이만의 것이 아닙니다.</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_NAME" Language="ko_KR">
+			<Text>마법 항아리 연구 허가</Text>
+		</Row>
+		<Row Tag="LOC_TECH_ALLOW_PROJECT_DESCRIPTION" Language="ko_KR">
+			<Text>마법 항아리에서 마녀 수련 프로젝트를 해금합니다.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_NAME" Language="ko_KR">
+			<Text>비행 마법</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 구역 통제를 무시하고, 바다에서 공격하며, 수도로 순간이동하고, 지형을 개선하거나 제거할 수 있습니다.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_PAIMEI_IGNOREZOC_IGNORE_ZOC_DESCRIPTION" Language="ko_KR">
+			<Text>파이메이는 구역 통제를 무시합니다</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PAIMEI_GDR_ARMOR_DEFENSES_NAME" Language="ko_KR">
+			<Text>마력 방패</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CAPITAL_BTN_TT" Language="ko_KR">
+			<Text>수도로 순간이동</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_TITLE" Language="ko_KR">
+			<Text>도시로 순간이동</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_BTN_TT" Language="ko_KR">
+			<Text>공수: 파이메이를 순간이동시킬 도시를 선택합니다. 순간이동 후 이번 턴에는 행동할 수 없습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_NOCITY" Language="ko_KR">
+			<Text>순간이동할 수 있는 도시가 없습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_FAIL" Language="ko_KR">
+			<Text>순간이동 실패: 도심과 주변에 빈 공간이 없습니다.</Text>
+		</Row>
+		<Row Tag="LOC_PLACE_PAIMEI_CITY_TELEPORT_CLOSE" Language="ko_KR">
+			<Text>닫기</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
